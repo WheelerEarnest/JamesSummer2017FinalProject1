@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wheeler.jamessummer2017finalproject.TaskList">
+
+    <ListView
+        android:id="@+id/tasklv"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        ></ListView>
+
+    <Button
+        android:id="@+id/new_long"
+        android:background="@drawable/add_not_press"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:height="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        />
+</FrameLayout>
