@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wheeler.jamessummer2017finalproject.LongTerm">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/new_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/taskNameHint"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/new_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/taskDescriptionHint"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/black"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/new_task_time_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"></android.support.v4.view.ViewPager>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/new_task_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@android:color/black"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"/>
+        <Button
+            android:id="@+id/new_task_accept"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:text="Accept"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
